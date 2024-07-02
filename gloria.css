@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-image: url('keza.jpg');
     color: #333;
 }
 
@@ -17,8 +17,17 @@ body {
     padding: 0 20px;
 }
 
+.container11 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+}
+
 header {
-    background-color: #001d3d;
+    background-color: #15008b;
     color: #fff;
     padding: 20px 0;
 }
@@ -50,7 +59,8 @@ section {
 }
 
 #about, #projects, #contact {
-    background-color: #e9ecef;
+    background-image: url('keza.jpg');
+    background-size: cover;
     text-align: center;
 }
 
